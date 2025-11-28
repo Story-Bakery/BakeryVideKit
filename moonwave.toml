@@ -1,0 +1,10 @@
+[project]
+title = "BakeryVideKit"
+license = "MIT"
+
+[docgen]
+input = "src"
+output = "docs"
+
+[site]
+baseUrl = "/"

@@ -1,0 +1,75 @@
+return {
+	Title = Color3.fromRGB(18, 18, 22),
+	AreaOutline = Color3.fromRGB(210, 214, 220),
+
+	Header = Color3.fromRGB(250, 250, 250),
+
+	Background = Color3.fromRGB(247, 247, 247),
+	Stroke = Color3.fromRGB(214, 214, 214),
+
+	Text = Color3.fromRGB(28, 28, 32),
+	PlaceholderText = Color3.fromRGB(162, 162, 168),
+	TextSelected = Color3.fromRGB(0, 0, 0),
+	TextHighlight = Color3.fromRGB(46, 115, 225),
+	TextMuted = Color3.fromRGB(124, 124, 130),
+	InfoText = Color3.fromRGB(46, 115, 225),
+	WarningText = Color3.fromRGB(197, 132, 0),
+	ErrorText = Color3.fromRGB(210, 66, 66),
+	SuccessText = Color3.fromRGB(32, 158, 92),
+	CriticalText = Color3.fromRGB(168, 32, 32),
+	NoticeText = Color3.fromRGB(101, 163, 255),
+
+	Button = Color3.fromRGB(238, 238, 238),
+	ButtonSelected = Color3.fromRGB(84, 131, 233),
+	ButtonText = Color3.fromRGB(30, 30, 32),
+	ButtonTextOnSelected = Color3.fromRGB(255, 255, 255),
+	ButtonHighlight = Color3.fromRGB(222, 222, 222),
+	ButtonHighlightOnSelected = Color3.fromRGB(110, 160, 255),
+	ButtonClickEffect = Color3.fromRGB(178, 178, 182),
+	ButtonClickEffectImage = "rbxassetid://85482587748308",
+	ButtonClickEffectTransparency = 0.35,
+	ButtonIcon = Color3.fromRGB(70, 70, 74),
+	ButtonIconOnSelected = Color3.fromRGB(255, 255, 255),
+
+	Menu = Color3.fromRGB(244, 244, 244),
+	MenuSelected = Color3.fromRGB(207, 219, 255),
+	MenuText = Color3.fromRGB(28, 28, 32),
+	MenuTextOnSelected = Color3.fromRGB(0, 0, 0),
+	MenuHighlight = Color3.fromRGB(226, 226, 230),
+	MenuHighlightOnSelected = Color3.fromRGB(179, 197, 255),
+	MenuClickEffect = Color3.fromRGB(138, 138, 142),
+	MenuIcon = Color3.fromRGB(70, 70, 74),
+	MenuIconOnSelected = Color3.fromRGB(0, 0, 0),
+
+	MenuItem = Color3.fromRGB(244, 244, 244),
+	MenuItemSelected = Color3.fromRGB(207, 219, 255),
+	MenuItemText = Color3.fromRGB(28, 28, 32),
+	MenuItemTextOnSelected = Color3.fromRGB(0, 0, 0),
+	MenuItemHighlight = Color3.fromRGB(228, 228, 232),
+	MenuItemHighlightOnSelected = Color3.fromRGB(184, 202, 255),
+	MenuItemClickEffect = Color3.fromRGB(150, 150, 154),
+	MenuItemIcon = Color3.fromRGB(70, 70, 74),
+	MenuItemIconOnSelected = Color3.fromRGB(0, 0, 0),
+
+	PopupMenuItemLine = Color3.fromRGB(195, 195, 200),
+
+	SliderSelected = Color3.fromRGB(222, 222, 226),
+	SliderHighlightOnSelected = Color3.fromRGB(206, 206, 210),
+
+	SliderGaugeMin = Color3.fromRGB(120, 168, 255),
+	SliderGaugeMax = Color3.fromRGB(78, 126, 235),
+	SliderGaugeStroke = Color3.fromRGB(92, 142, 240),
+
+	InfoIcon = Color3.fromRGB(46, 115, 225),
+	WarningIcon = Color3.fromRGB(197, 132, 0),
+	ErrorIcon = Color3.fromRGB(210, 66, 66),
+	SuccessIcon = Color3.fromRGB(32, 158, 92),
+	CriticalIcon = Color3.fromRGB(168, 32, 32),
+	NoticeIcon = Color3.fromRGB(101, 163, 255),
+
+	ScrollingFrame = Color3.fromRGB(247, 247, 247),
+	ScrollBar = Color3.fromRGB(214, 214, 214),
+
+	CullingFade = Color3.fromRGB(255, 255, 255),
+	CullingFadeTransparency = 0.65,
+}

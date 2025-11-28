@@ -1,0 +1,33 @@
+name = "story_bakery/bakery_vide_kit"
+version = "0.1.0"
+license = "MIT"
+includes = ["pesde.toml", "LICENSE", "README.md", ".pesde/scripts/roblox_sync_config_generator.luau", ".pesde/scripts/sourcemap_generator.luau", "src/**/*.luau", "src/**/*.json", "tests/**/*.luau"]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = [
+    "src",
+]
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+TableUtil = { workspace = "story_bakery/table_util", version = "^" }
+MathUtil = { workspace = "story_bakery/math_util", version = "^" }
+DynamicTimer = { workspace = "story_bakery/dynamic_timer", version = "^" }
+DynamicTween = { workspace = "story_bakery/dynamic_tween", version = "^" }
+LinearInterpolation = { workspace = "story_bakery/linear_interpolation", version = "^" }
+UserInputManager = { workspace = "story_bakery/user_input_manager", version = "^" }
+ExtendedTranslator = { workspace = "story_bakery/extended_translator", version = "^" }
+Maid = { workspace = "story_bakery/maid", version = "^" }
+vide = { name = "centau/vide", version = "^0.3.1-test.1" }
+ui-labs = { wally = "pepeeltoro41/ui-labs", version = "^2.4.2" }
+
+[scripts]
+roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
+
+[engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
