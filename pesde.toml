@@ -13,15 +13,18 @@ build_files = [
 [indices]
 default = "https://github.com/pesde-pkg/index"
 
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
 [dependencies]
-TableUtil = { workspace = "story_bakery/table_util", version = "^" }
-MathUtil = { workspace = "story_bakery/math_util", version = "^" }
-DynamicTimer = { workspace = "story_bakery/dynamic_timer", version = "^" }
-DynamicTween = { workspace = "story_bakery/dynamic_tween", version = "^" }
-LinearInterpolation = { workspace = "story_bakery/linear_interpolation", version = "^" }
-UserInputManager = { workspace = "story_bakery/user_input_manager", version = "^" }
-ExtendedTranslator = { workspace = "story_bakery/extended_translator", version = "^" }
-Maid = { workspace = "story_bakery/maid", version = "^" }
+TableUtil = { repo = "Story-Bakery/TableUtil", rev = "main" }
+MathUtil = { repo = "Story-Bakery/MathUtil", rev = "main" }
+DynamicTimer = { repo = "Story-Bakery/DynamicTimer", rev = "main" }
+DynamicTween = { repo = "Story-Bakery/DynamicTween", rev = "main" }
+LinearInterpolation = { repo = "Story-Bakery/LinearInterpolation", rev = "main" }
+UserInputManager = { repo = "Story-Bakery/UserInputManager", rev = "main" }
+ExtendedTranslator = { repo = "Story-Bakery/ExtendedTranslator", rev = "main" }
+Maid = { repo = "Story-Bakery/Maid", rev = "main" }
 vide = { name = "centau/vide", version = "^0.3.1-test.1" }
 ui-labs = { wally = "pepeeltoro41/ui-labs", version = "^2.4.2" }
 
