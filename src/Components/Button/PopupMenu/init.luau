@@ -1,25 +1,19 @@
-local ButtonFolder = script.Parent -- Button 폴더
-local Components = ButtonFolder.Parent -- Components 폴더
-local SrcRoot = Components.Parent -- src 루트
-local PackageRoot = SrcRoot.Parent -- 패키지 루트
-local Packages = PackageRoot.roblox_packages
+local vide = require("../../.././roblox_packages/vide")
 
-local vide = require(Packages.vide)
+local DynamicTween = require("../../.././roblox_packages/DynamicTween")
+local LinearInterpolation = require("../../.././roblox_packages/LinearInterpolation")
+local MathUtil = require("../../.././roblox_packages/MathUtil")
+local TableUtil = require("../../.././roblox_packages/TableUtil")
+local Types = require("../.././Types")
+local UserInputManager = require("../../.././roblox_packages/UserInputManager")
 
-local DynamicTween = require(Packages.DynamicTween)
-local LinearInterpolation = require(Packages.LinearInterpolation)
-local MathUtil = require(Packages.MathUtil)
-local TableUtil = require(Packages.TableUtil)
-local Types = require(SrcRoot.Types)
-local UserInputManager = require(Packages.UserInputManager)
-
-local Button = require(Components.Button)
-local Frame = require(Components.Frame)
-local ListLayout = require(Components.UIComponent.ListLayout)
-local ScrollingFrame = require(Components.ScrollingFrame)
-local SizeConstraint = require(Components.UIComponent.SizeConstraint)
-local TextLabel = require(Components.TextLabel)
-local theme = require(SrcRoot.Contexts.Theme)
+local Button = require("../.././Components/Button")
+local Frame = require("../.././Components/Frame")
+local ListLayout = require("../.././Components/UIComponent/ListLayout")
+local ScrollingFrame = require("../.././Components/ScrollingFrame")
+local SizeConstraint = require("../.././Components/UIComponent/SizeConstraint")
+local TextLabel = require("../.././Components/TextLabel")
+local theme = require("../.././Contexts/Theme")
 
 local source = vide.source
 local create = vide.create
