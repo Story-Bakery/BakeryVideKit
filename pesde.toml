@@ -1,14 +1,21 @@
 name = "story_bakery/bakery_vide_kit"
 version = "0.1.0"
 license = "MIT"
-includes = ["pesde.toml", "LICENSE", "README.md", ".pesde/scripts/roblox_sync_config_generator.luau", ".pesde/scripts/sourcemap_generator.luau", "src/**/*.luau", "src/**/*.json", "tests/**/*.luau"]
+includes = [
+    "pesde.toml",
+    "LICENSE",
+    "README.md",
+    ".pesde/scripts/roblox_sync_config_generator.luau",
+    ".pesde/scripts/sourcemap_generator.luau",
+    "src/**/*.luau",
+    "src/**/*.json",
+    "tests/**/*.luau",
+]
 
 [target]
 environment = "roblox"
 lib = "src/init.luau"
-build_files = [
-    "src",
-]
+build_files = ["src"]
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
