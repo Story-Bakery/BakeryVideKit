@@ -1,7 +1,38 @@
+# Rojo
+/sourcemap.json
+
+# Artifacts
+/*.lock
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+
+# darklua
+/out
+/.darklua-sourcemap.json
+
+# Lune
 luau_packages/
 lune_packages/
 roblox_packages/
 
+# Pesde
 .pesde/
-.sourcemap*
+pesde.lock # 다른 패키지를 참조힐 때도, 최신 버전으로 계속 쓸 수 있게 하기 위함입니다, 마이너나 패치의 경우엔 API 가 바뀌지 않는 것이 정석
+
+# Wally
+/Packages
+/ServerPackages
+/DevPackages
+wally.lock
+
+# Git
+
+# Misc
+.DS_Store
+.vscode
+
+/node_modules
+/build
 
