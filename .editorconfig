@@ -1,0 +1,15 @@
+# 기본 규칙
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 4
+tab_width = 4
+trim_trailing_whitespace = false
+
+# Markdown은 끝 공백을 자주 쓰니 보존
+[*.md]
+trim_trailing_whitespace = false
+
+[*.lua]
+# Lua 파일은 탭으로 작성합니다 - Roblox Lua style guide
+indent_style = tab
