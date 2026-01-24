@@ -1,3 +1,16 @@
 syntax = "Luau"
 indent_type = "Tabs"
 indent_width = 4
+
+column_width = 100             # 줄 폭 100자
+line_endings = "Unix"          # LF
+
+quote_style = "ForceDouble"    # 문자열은 항상 큰따옴표
+call_parentheses = "Input"
+
+collapse_simple_statement = "Never"  # 한 줄 if/return 등으로 접기 금지
+space_after_function_names = "Never" # function foo() 형태 유지
+block_newline_gaps = "Never"         # 블록 앞/뒤의 빈 줄 보존 X (일관 포맷)
+
+[sort_requires]
+enabled = true                 # require와 game:GetService 블록을 이름 기준 정렬

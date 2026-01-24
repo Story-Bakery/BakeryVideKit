@@ -18,14 +18,16 @@ default = "https://github.com/UpliftGames/wally-index"
 [dependencies]
 vide = { name = "centau/vide", version = "^0.3.1-test.1" }
 ui-labs = { wally = "pepeeltoro41/ui-labs", version = "^2.4.2" }
-Maid = { repo = "https://github.com/StoryBakery/Maid", rev = "main" }
-TableUtil = { repo = "https://github.com/StoryBakery/TableUtil", rev = "main" }
-MathUtil = { repo = "https://github.com/StoryBakery/MathUtil", rev = "main" }
-DynamicTimer = { repo = "https://github.com/StoryBakery/DynamicTimer", rev = "main" }
-DynamicTween = { repo = "https://github.com/StoryBakery/DynamicTween", rev = "main" }
-LinearInterpolation = { repo = "https://github.com/StoryBakery/LinearInterpolation", rev = "main" }
-UserInputManager = { repo = "https://github.com/StoryBakery/UserInputManager", rev = "main" }
-ExtendedTranslator = { repo = "https://github.com/StoryBakery/ExtendedTranslator", rev = "main" }
+Maid = { repo = "https://github.com/StoryBakery/Maid", rev = "0fc3dddb5b709f30c90cf0d63f031113c26ce207" }
+TableUtil = { repo = "https://github.com/StoryBakery/TableUtil", rev = "961700292dd382b062955e16cac7ccccc361cdfa" }
+MathUtil = { repo = "https://github.com/StoryBakery/MathUtil", rev = "1d494fd68f7dbbe31d69aea05395d965623b6167" }
+DynamicTimer = { repo = "https://github.com/StoryBakery/DynamicTimer", rev = "7abb2a1b7faba9b5f6e8d1ad031fab29182ebced" }
+DynamicTween = { repo = "https://github.com/StoryBakery/DynamicTween", rev = "ee4f2e5dfb894f5d459a1dc573e2a0387020ad74" }
+LinearInterpolation = { repo = "https://github.com/StoryBakery/LinearInterpolation", rev = "c522819b5515edb45f1518244252f58c8f9e05ee" }
+UserInputManager = { repo = "https://github.com/StoryBakery/UserInputManager", rev = "f932f212b55f985c3126fb9804f07e604ca05470" }
+ExtendedTranslator = { repo = "https://github.com/StoryBakery/ExtendedTranslator", rev = "18d4b7a7c10950235d0d196eb3ad605b65208216" }
+setup-project-configs = { repo = "https://github.com/StoryBakery/setup-project-configs", rev = "5553c590815a3486243ab67ba718c37744c6befd" }
+pesde-gitrev = { repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "037b48d1245da005deb4196dde2cee8868627f41" }
 
 [scripts]
 roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
@@ -38,3 +40,4 @@ rojo = { name = "pesde/rojo", version = "^7.5.1", target = "lune" }
 [engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
+

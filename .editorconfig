@@ -13,3 +13,7 @@ trim_trailing_whitespace = false
 [*.lua]
 # Lua 파일은 탭으로 작성합니다 - Roblox Lua style guide
 indent_style = tab
+
+[*.luau]
+indent_style = tab
+

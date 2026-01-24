@@ -1,5 +1,28 @@
-std = "roblox"
+std = "roblox+luau"
+
+exclude = [
+    "**/pesde/**",
+    "**/.pesde/**",
+    "**/luau_packages/**",
+    "**/lune_packages/**",
+    "**/roblox_packages/**",
+    "**/out/**",
+    "**/build/**",
+]
 
 [lints]
-unused_variable = "allow"   # 또는 "warn"
+# selene의 unused_variable 은 무시합니다
+# for i, v 의 i 나 v 안쓴다고 에러 표시하기 때문
+unused_variable = "allow"
+
+undefined_variable = "allow"
+
 incorrect_standard_library_use = "allow"
+
+shadowing = "allow"
+
+roblox_manual_fromscale_or_fromoffset = "allow"
+
+# vide 의 숫자 키 기반 자식 테이블로 allow 합니다.
+# vide 가 아닌 경우는 mixed_table 은 금지.
+mixed_table = "allow"
